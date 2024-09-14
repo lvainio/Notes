@@ -17,6 +17,6 @@ jobs:
         ls -la
 
     - name: testing
-      run: echo ${{ github.repository }}
+      run: echo ${{ github.repository }} ${{ github.ref }} 
 
    
