@@ -14,9 +14,7 @@
 
 Each commit must be prefixed with a type.
 
-### feat
-
-Introduces a new feature into the codebase.
+feat: Introduces a new feature into the codebase.
 
 ### fix
 
