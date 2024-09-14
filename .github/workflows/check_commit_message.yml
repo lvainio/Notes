@@ -10,16 +10,13 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout code
-      uses: actions/checkout@v3
+    - uses: actions/checkout@v4
 
     - name: List directory
-      env:
-          MY_VAR: Hi there! My name is
-          FIRST_NAME: Leo
       run: |
         ls -la
-        echo $MY_VAR $FIRST_NAME
-        uname -a
+
+    - name: testing
+      run: echo ${{ github.repository }}
 
    
