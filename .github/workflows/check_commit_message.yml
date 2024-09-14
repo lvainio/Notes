@@ -1,0 +1,25 @@
+name: Check Commit Message
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  check-commit-message:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
+
+    - name: List directory
+      env:
+          MY_VAR: Hi there! My name is
+          FIRST_NAME: Leo
+      run: |
+        ls -la
+        echo $MY_VAR $FIRST_NAME
+        uname -a
+
+   
