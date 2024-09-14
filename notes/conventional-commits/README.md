@@ -16,9 +16,7 @@ Each commit must be prefixed with a type.
 
 `feat`: Introduces a new feature into the codebase.
 
-### fix
-
-Patches a bug in the codebase.
+`fix`: Patches a bug in the codebase.
 
 ### build
 
