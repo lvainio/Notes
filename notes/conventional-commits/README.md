@@ -3,13 +3,11 @@
 ## General Structure
 
 ```
-
 <type>[optional scope]: <description>
 <BLANK LINE>
 [optional body]
 <BLANK LINE>
 [optional footer(s)]
-
 ```
 
 ## Types
@@ -27,9 +25,6 @@ Patches a bug in the codebase.
 ### build
 
 Changes that affect the build system or external dependencies.
-
-### chore
-
 
 ### ci
 
@@ -54,3 +49,7 @@ A code change that improves performance.
 ### test
 
 Adding missing tests or correcting existing tests.
+
+### chore
+
+Routine maintenance tasks that don’t affect production code, like updating development tools or configuration.
