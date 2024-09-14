@@ -1,6 +1,6 @@
 # Conventional Commits
 
-## General Structure
+## Commit Structure
 
 ```
 <type>[optional scope]: <description>
